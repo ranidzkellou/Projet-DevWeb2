@@ -1,0 +1,118 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.3fr 0.2fr 3.2fr 0.3fr;
+    grid-template-rows: 0.3fr 0.1fr 0.2fr 4.1fr 0.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header header header header" "header1 header1 header1 header1" ". body1 body1 ." ". season profiles ." ". . . .";
+}
+
+.header {
+    grid-area: header;
+}
+
+.header1 {
+    grid-area: header1;
+}
+
+.body1 {
+    grid-area: body1;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: profiles;
+}
+
+.pf1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.pf2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.pf3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.pf4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.pf5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.pf6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.pf7 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.pf8 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.pf9 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.pf10 {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.pf11 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.pf12 {
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+.medly {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.season {
+    grid-area: season;
+}
+
+body {
+    margin: 0px;
+}
+
+input {
+    align-self: start;
+    width: auto;
+}
+
+.vl {
+    border-left: 3px solid #58342c;
+    height: 1000px;
+    position: absolute;
+    left: 15%;
+    margin-left: -15px;
+    top: 1;
+}
+
+.hrr {
+    background-color: #58342c;
+    width: 90px;
+    height: 2px;
+    margin-right: 60px;
+}
+
+#here {
+    color: black;
+}
+
+.img {
+    width: 250px;
+}
