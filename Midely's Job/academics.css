@@ -168,8 +168,8 @@ input[type="checkbox"]:checked {
 
 .vl {
     border-left: 3px solid #58342c;
-    height: 1350px;
+    height: 1400px;
     position: absolute;
-    left: 80%;
+    left: 95%;
     transform: translateX(-50%);
 }
