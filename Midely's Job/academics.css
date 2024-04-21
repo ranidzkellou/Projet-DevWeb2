@@ -164,12 +164,13 @@ input[type="checkbox"]:checked {
 }
 .line-container {
     position: relative;
+    margin: 0 auto;
 }
 
 .vl {
     border-left: 3px solid #58342c;
-    height: 1400px;
+    height: 1350px;
     position: absolute;
-    left: 95%;
+    left: 96%;
     transform: translateX(-50%);
 }

@@ -73,7 +73,7 @@
 
 
 body{
-  margin: 0px;
+  margin: 0 auto;
 }
 
 
@@ -107,4 +107,142 @@ body{
 
 p{
   font-size: 20px;
+}
+
+
+.container1 {
+  width: 1000px; /* Define the width of your container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.box {
+ 
+  height: 150px;
+  position: relative;
+}
+
+.amphi {
+
+  height: 150px;
+  width: 30%;
+  position: absolute;
+  background-color: red;
+}
+
+.module {
+
+  height: 30px;
+  width: 180px;
+  position: absolute;
+  background-color: yellow;
+  left: 190px;
+  top: 5px;
+}
+
+.module h2 {
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  bottom: -8px;
+  font-family: Neue Montreal;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  color: #553429;
+}
+
+.date {
+  position: absolute;
+  width: 220px;
+  height: 150px;
+  left: 300px;
+  top: 0px;
+  background-color: #553429;
+  z-index: -1;
+  
+  
+}
+
+.exampalc{
+  
+  position: absolute;
+  width:260px ;
+  height: 150px;
+  left: 520px;
+  background-color: #553429;
+  
+}
+
+.observers{
+
+  position: absolute;
+  width:217px ;
+  height: 150px;
+  left: 780px;
+  background-color: #553429;
+}
+
+#hr1 {
+  border-color: #BE754C;    
+  border-width: 1px; 
+  border-style: solid; 
+  width: 200px;
+  margin-left: 0px;;
+}
+#hr2{
+  border-color: #BE754C;    
+  border-width: 1px; 
+  border-style: solid; 
+  width: 170px;
+  margin-left: 0px;;
+}
+
+
+
+#h22{
+  font-family: Neue Montreal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: white;    
+}
+#list1{
+  color: white;
+  font-family: Neue Montreal;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  margin-left: -25px;
+  
+}
+#list2{
+  color: white;
+  font-family: Neue Montreal;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  margin-left: -25px;
+  
+
+}
+
+.examdate{
+
+  color: white;
+  font-family: Neue Montreal;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 15px;
+}
+#amphiid{
+  width: 300px;
+  height: 150px;
+  gap: 0px;
+  opacity: 0px;
+  
 }
