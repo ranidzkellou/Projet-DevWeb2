@@ -1,0 +1,818 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+
+}
+
+.top_bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.logo_container {
+  background-color: rgba(85, 52, 41, 1);
+  width: 100%;
+  justify-content: space-between;
+  align-items: start;
+
+
+}
+
+#Head_Logo {
+  width: auto;
+  padding: 10px 75px;
+  max-width: 50vh;
+  height: auto;
+}
+
+
+.top_bar nav {
+
+  background-color: rgba(190, 117, 76, 1);
+  padding: 18px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Rachel';
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #442013;
+}
+
+.navbar {
+
+  position: relative;
+}
+
+
+.evening {
+  position: relative;
+  width: 372px;
+  height: 71px;
+  top: -1px;
+  left: 260px;
+  gap: 0px;
+  opacity: 0px;
+
+  background-color: rgba(67, 134, 190, 1);
+}
+
+.challenges {
+  position: relative;
+  width: 372px;
+  height: 71px;
+  top: 70px;
+  left: 632px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: rgba(250, 41, 69, 1);
+}
+
+#script {
+
+  position: relative;
+  font-family: 'NeueMontreal';
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  left: 70px;
+}
+
+#script:hover {
+  cursor: pointer;
+  font-weight: 700;
+
+}
+
+.evening #script {
+  left: 100px;
+}
+
+.squar {
+  position: relative;
+  height: 70em;
+  top: 40px;
+  background-color: hwb(0 80% 17% / 0.336);
+}
+
+.navbar {
+  text-align: center;
+  background-color: rgba(15, 200, 22, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 950px;
+  left: 9.4em;
+  border: 0px;
+  top: 25px;
+}
+
+.navbar a {
+  color:rgba(255, 255, 255, 1);
+  text-decoration: none;
+  padding: 5px 12px;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  font-family: "Neue Montreal";
+
+}
+
+.navbar a.active {
+  background-color: rgba(6, 63, 6, 0.705);
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
+.navbar a:hover:not(.active) {
+  background-color: rgb(8, 172, 16);
+  border-radius: 10px;
+}
+#arrow{
+  width: 6px;
+  height: 12px;
+  gap: 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  
+}
+
+.green {
+
+  width: 245px;
+  height: 760px;
+  top: 100px;
+  left: 150px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  grid-area: green-rect;
+  background-color: rgba(15, 200, 22, 1);
+
+
+}
+
+.point {
+  color:rgba(255, 255, 255, 1);
+  top: -25px;
+  left: 10px;
+  font-size: 30px;
+  font-family: "NeueMontreal";
+  line-height: 38.4px;
+  font-weight: 700;
+  position: relative;
+}
+
+.gline {
+  width: 245px;
+  height: 7px;
+  background-color: #0C5D0F;
+  position: relative;
+  top: -40px;
+
+}
+
+.filters {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-family: "NeueMontreal";
+  color:rgba(255, 255, 255, 1);
+  padding-left: 10px;
+  top: -40px;
+  position: relative;
+}
+
+.pop {
+  font-family: "NeueMontreal";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 10px;
+  position: relative;
+  top: -50px;
+
+}
+.search {
+
+  border: none;
+  height: 36px;
+  width: 210px;
+  margin-top: 40px;
+  background-color: #29F631;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  position: relative;
+  top: -50px;
+  left: 10px;
+  color:rgba(255, 255, 255, 1);
+  font-family: "NeueMontreal";
+}
+
+.search:focus {
+  outline: none;
+}
+
+#loop_icon {
+  position: relative;
+  bottom: 42px;
+  right: 18px;
+}
+
+#progression {
+  font-family: "NeueMontreal";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+  color:rgba(255, 255, 255, 1);
+  padding-left: 10px;
+  position: relative;
+  top: -40px;
+}
+
+.level {
+  width: 79px;
+  line-height: 24px;
+  height: 124px;
+  color: #0C5D0F;
+  font-size: 15px;
+  position: relative;
+  top: -275px;
+  left: 150px;
+}
+
+#eclipse {
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+}
+
+#pourc {
+  font-size: 24px;
+  font-family: "NeueMontreal";
+  color:rgba(255, 255, 255, 1);
+  position: relative;
+  top: -165px;
+  left: 50px;
+}
+
+#ln2 {
+  top: -80px;
+
+}
+
+.username {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 70px;
+  bottom: 130px;
+}
+
+#usrn {
+  position: relative;
+  top: -10px;
+  font-family: "NeueMontreal";
+  font-size: 9px;
+  font-weight: 300;
+  line-height: 9.6px;
+  text-align: left;
+  color: #000000;
+
+}
+
+#usr {
+  font-family: "NeueMontreal";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.6px;
+  text-align: left;
+  color:rgba(255, 255, 255, 1);
+
+}
+
+.set_log {
+  text-decoration: none;
+  font-family: "NeueMontreal";
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 9.6px;
+  color: #0C5D0F;
+  bottom: 22.6em;
+  left: 178px;
+  position: relative;
+}
+
+#user_pic {
+  position: relative;
+  top: -70px;
+  left: 15px;
+  width: 45px;
+ 
+}
+#user_pic:hover{
+  cursor: pointer;
+}
+
+.boxes {
+  position: relative;
+  top: 40px;
+  left: 400px;
+  width: 700px;
+  height: 760px;
+}
+
+.box {
+  box-shadow: 4px 4px 5px rgb(177, 170, 170);
+  width: 220px;
+  height: 110px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+   background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  cursor: pointer;
+
+}
+
+#bx1:hover {
+
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx2 {
+  top: 20px;
+  left: 250px;
+  position: absolute;
+}
+
+#bx2:hover {
+  box-shadow: 4px 5px 10px #37B7FF;
+}
+
+#bx2 #theme {
+  background-color: #37B7FF;
+}
+
+#bx2 #point {
+  color: #37B7FF;
+}
+
+#bx3 {
+  top: 20px;
+  left: 480px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+#bx3:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx4 {
+  top: 150px;
+  left: 250px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+#bx4:hover {
+  box-shadow: 4px 5px 10px #FF1212;
+}
+
+#bx4 #theme {
+  background-color: #FF1212;
+}
+
+#bx4 #point {
+  color: #FF1212;
+}
+
+#bx5 {
+  
+  top: 150px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+#bx5:hover {
+  box-shadow: 4px 5px 10px #FFBE5D;
+}
+
+#bx5 #theme {
+  background-color: #FFBE5D;
+}
+
+#bx5 #point {
+  color: #FFBE5D;
+}
+
+#bx6 {
+  top: 280px;
+  left: 250px;
+  position: absolute;
+}
+
+#bx6:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx7 {
+  top: 410px;
+  left: 250px;
+  position: absolute;
+}
+
+#bx7:hover {
+  box-shadow: 4px 5px 10px #FFBE5D;
+}
+
+#bx7 #theme {
+  background-color: #FFBE5D;
+}
+
+#bx7 #point {
+  color: #FFBE5D;
+}
+
+#bx8 {
+  top: 540px;
+  left: 250px;
+  position: absolute;
+}
+
+#bx8:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx9 {
+  top: 280px;
+  left: 20px;
+  position: absolute;
+}
+
+#bx9:hover {
+  box-shadow: 4px 5px 10px #37B7FF;
+}
+
+#bx9 #theme {
+  background-color: #37B7FF;
+}
+
+#bx9 #point {
+  color: #37B7FF;
+}
+
+#bx10 {
+  top: 410px;
+  left: 20px;
+  position: absolute;
+}
+
+#bx10:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx11 {
+  top: 540px;
+  left: 20px;
+  position: absolute;
+}
+
+#bx11:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx12 {
+  top: 150px;
+  left: 480px;
+  position: absolute;
+}
+
+#bx12:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx13 {
+  top: 280px;
+  left: 480px;
+  position: absolute;
+}
+
+#bx13:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx14 {
+  top: 410px;
+  left: 480px;
+  position: absolute;
+}
+
+#bx14:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx15 {
+  top: 540px;
+  left: 480px;
+  position: absolute;
+}
+
+#bx15:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx16 {
+  top: 670px;
+  left: 20px;
+  position: absolute;
+}
+
+#bx16:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+
+}
+
+#bx17 {
+  top: 670px;
+  left: 480px;
+  position: absolute;
+}
+
+#bx17:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#bx18 {
+  top: 670px;
+  left: 250px;
+  position: absolute;
+}
+
+#bx18:hover {
+  box-shadow: 4px 5px 10px rgba(15, 200, 22, 1);
+}
+
+#theme {
+
+  position: relative;
+  top: -40px;
+  height: 5px;
+  background-color: rgba(15, 200, 22, 1);
+}
+
+#challenge_name {
+  font-family: "NeueMontreal";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  width: 50%;
+  left: 15px;
+  top: 45px;
+  position: relative;
+  display: inline;
+
+
+}
+
+#type {
+
+  width: 40%;
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  font-family: "NeueMontreal";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-align: left;
+  color: #FA2945;
+
+}
+
+#point {
+  font-family: "NeueMontreal";
+  position: absolute;
+  left: 150px;
+  top: -9px;
+  top: px;
+  color: rgba(15, 200, 22, 1);
+
+}
+
+#solution {
+  position: absolute;
+  width: 100px;
+  right: -40px;
+  top: 86px;
+  font-family: "NeueMontreal";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+
+
+}
+
+@font-face {
+  font-family: 'Rachel';
+  src: url('Rachel\ Roman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  font-weight: lighter;
+  font-style: normal;
+  src: url('NeueMontreal-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  font-weight: normal;
+  font-style: normal;
+  src: url('NeueMontreal-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  font-weight: bold;
+  font-style: bold;
+  src: url('NeueMontreal-Bold.otf') format('opentype');
+}
+
+.footer_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Changed from space-around to space-between */
+  padding: 15px 75px;
+  background-color: rgba(85, 52, 41, 1);
+  margin-top: 20px;
+  position: relative;
+  top: 45em;
+}
+
+#footer_logo {
+  width: 120px;
+  margin-bottom: 0;
+}
+
+.text_footer_Ulogo p {
+  line-height: 1.5;
+  font-weight: normal;
+  text-align: start;
+  color: white;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0px 70px;
+  padding: 0;
+}
+
+.links-container h1 {
+  text-align: start;
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.links-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links-container li {
+  margin-bottom: 10px;
+}
+
+.links-container a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #FFBE5D;
+  font-weight: lighter;
+}
+
+a:hover {
+  color: white;
+}
+
+.links-container li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #442013;
+  margin: 3px 0px;
+}
+
+li:last-child::after {
+  display: none;
+}
+
+.otherPages_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: auto 70px;
+}
+
+.otherPages_footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.otherPages_footer li {
+  display: block;
+  margin-top: 30px;
+}
+
+.otherPages_footer a {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.otherPages_footer a:hover {
+  color: #FFBE5D;
+}
+
+.social_media {
+  position: relative;
+  bottom: 100px;
+  padding: 0;
+  display: flex;
+}
+
+.social_media .icon {
+  padding: 10px;
+
+}
+
+.icon img {
+  transition-duration: 0.3s;
+  /* Smooth transition */
+
+}
+
+.icon:hover img {
+  transform: scale(1.2);
+  filter: brightness(0) invert(1);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.icon:hover::after {
+  position: absolute;
+}
+
+
+
+/*! End footer section */

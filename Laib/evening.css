@@ -1,0 +1,478 @@
+body{
+ margin:0px;
+ overflow-x: hidden;
+}
+.top_bar { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+     
+} 
+ 
+.logo_container { 
+    background-color: rgba(85, 52, 41, 1); 
+    width: 100%; 
+    justify-content: space-between; 
+    align-items: start; 
+     
+     
+} 
+ 
+#Head_Logo { 
+    width: auto; 
+    padding:10px 75px; 
+    max-width: 50vh; 
+    height: auto; 
+} 
+ 
+ 
+.top_bar nav { 
+     
+    background-color: rgba(190, 117, 76, 1); 
+    padding: 18px 0; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+} 
+ 
+nav ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+nav ul li { 
+    display: inline-block; 
+    margin-right: 20px; 
+    font-family: 'Rachel'; 
+    font-size: 20px; 
+} 
+ 
+nav ul li a { 
+    text-decoration: none; 
+    color: white; 
+} 
+ 
+nav ul li a:hover { 
+    color: #442013; 
+}
+
+.evening{
+    position: relative;
+    width: 372px;
+    height: 71px;
+    top: -1px;
+    left: 260px;
+    gap: 0px;
+    opacity: 0px; 
+     background-color: rgba(67, 134, 190, 1);
+}
+.challenges{
+     position: relative;
+     width: 372px;
+     height: 71px;
+     top: 70px;
+     left: 632px;
+     gap: 0px;
+     opacity: 0px; 
+     background-color: rgba(250, 41, 69, 1);
+}
+#script{
+     
+      position: relative;
+      font-family: 'NeueMontreal';
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 57.6px;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+      left: 70px;
+}
+#script:hover{
+     cursor:pointer;
+     font-weight: 700; 
+}
+.evening #script{
+     left: 100px;
+}
+.container{
+    width: 1200px;
+    height: 656px;
+    top: 90px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    box-shadow: 8px 0px 40px rgb(207, 207, 207);
+}
+
+.blue{
+    width: 285px;
+    height: 656px;
+    top: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    background-color:rgba(103, 158, 203, 1) ;
+}
+
+#history{
+     width: 107.16px;
+     height: 28.38px;
+     top: 60px;
+     left: 28px;
+     gap: 0px;
+     opacity: 0px;
+     position: absolute;   
+     color: rgba(255, 255, 255, 1);
+     font-size: 38px;
+     font-family:'NeueMontreal';
+}
+
+.Hi{
+    
+    position: absolute;
+    width: 815px;
+    height: 656px;
+    left: 285px;
+    font-family:'NeueMontreal' ;
+}
+
+#message{
+    font-family: 'NeueMontreal';
+     width: 700px;
+     height: 92.24px;
+     top: 0px;
+     left: 35px;
+     gap: 0px;
+     opacity: 0px;
+     position: absolute;
+     font-size: 38px;
+     color: #373833;
+     line-height: 60px;
+}
+#Ev{
+    color:rgba(103, 158, 203, 1);
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'NeueMontreal';
+}
+
+.boxes{
+    width: 762px;
+    height: 141px;
+    top: 200px;
+    left: 35px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;   
+    
+}
+.box{
+    width: 195px;
+    height: 141px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(236, 236, 236, 1);
+    border-radius: 17px;
+    animation-name:slideleft;
+    animation-duration: 1s;
+
+}
+@keyframes slideleft{
+    from{transform: translateX(800%);}
+}
+#box1{
+    position: absolute;   
+    top: 0px;
+    left: 0px;
+}
+#box2{
+    position: absolute;   
+    top: 0px;
+    left: 220px;
+}
+#box3{
+    position: absolute;   
+    top: 0px;
+    left: 440px;
+}
+#box4{
+    position: absolute;   
+    top: 0px;
+    left: 660px;
+}
+#smile{
+    position: absolute;
+    bottom: 4px;
+    left: 125px;
+    width: 15px;
+}
+
+.insidebox{
+    
+    position: absolute;
+    font-size: 12px;
+    top: 0px;
+    left: 10px;
+    line-height: 20px;
+    font-family: 'NeueMontreal';
+    
+}
+
+#word{
+    font-family: 'NeueMontreal';
+    display: inline;
+    font-size: 20px;
+    font-weight: 800;
+}
+.sidebox{
+    
+    width: fit-content;
+    position: absolute;
+    top: 106px;
+    right: 10px;
+    border-radius: 3px;
+    width: 25px;
+    height: 25px;
+    background-color:  rgba(103, 158, 203, 1);
+
+}
+#letter{
+    
+    font-family: 'Rachel';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(11, 55, 91, 1);
+    position: absolute;
+    left: 5px;
+    
+}
+
+#box2 #letter{
+    left:10px;
+    top: 2px;
+    
+}
+#box3 #letter{
+    top: 3px;
+    
+}
+#box4 #letter{
+    top: 3px;
+    
+}
+.shine{
+    width: 234px;
+    height: 264px;
+    bottom: 0px;
+    right:0px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;   
+    
+}
+.input::placeholder{
+    color: rgba(158, 188, 212, 1);
+    font-size: 27px;
+    line-height: 20px;
+    padding: 10px; /* Add padding to ensure the text is fully visible */
+    width: 100%; /* Use 100% width to fill the input box */
+    height: 100%; /* Use 100% height to fill the input box */
+    margin: 0; /* Remove any margin */
+    box-sizing: border-box;
+    font-family: 'NeueMontreal';
+    
+}
+.input{
+    width: 740px;
+    height: 61px;
+    left: 35px;
+    bottom: 15px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    font-size: 25px;
+    color: rgba(103, 158, 203, 1);
+    box-shadow: 5px 8px 20px  rgb(207, 207, 207);
+    border: none;
+
+}
+.input:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: rgba(103, 158, 203, 1); /* Change the border color when focused */
+}
+button{
+    position: absolute;
+    bottom: 25px;
+    right: 45px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0px;
+    cursor: pointer;
+    
+}
+@font-face { 
+    font-family: 'Rachel';  
+    src: url('Rachel\ Roman.ttf') format('truetype'); 
+} 
+ 
+@font-face { 
+    font-family: 'NeueMontreal'; 
+    font-weight: lighter; 
+    font-style: normal; 
+    src: url('NeueMontreal-Light.otf') format('opentype'); 
+} 
+ 
+@font-face { 
+    font-family: 'NeueMontreal'; 
+    font-weight: normal; 
+    font-style: normal; 
+    src: url('NeueMontreal-Regular.otf') format('opentype'); 
+} 
+ 
+@font-face { 
+    font-family: 'NeueMontreal'; 
+    font-weight: bold; 
+    font-style: bold; 
+    src: url('NeueMontreal-Bold.otf') format('opentype'); 
+}
+
+.footer_bar { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; /* Changed from space-around to space-between */ 
+    padding: 15px 75px; 
+    background-color: rgba(85, 52, 41, 1); 
+    margin-top: 20px; 
+    position: relative;
+    top: 45em;
+} 
+ 
+#footer_logo { 
+    width: 120px; 
+    margin-bottom: 0; 
+} 
+ 
+.text_footer_Ulogo p { 
+    line-height: 1.5; 
+    font-weight: normal; 
+    text-align: start; 
+    color: white; 
+} 
+ 
+.links-container { 
+    display: flex; 
+    flex-direction: column;  
+    max-width: 800px; 
+    margin: 0px 70px; 
+    padding: 0; 
+} 
+   
+.links-container h1 { 
+    text-align: start;  
+    color: white; 
+    font-size: 36px; 
+    margin-bottom: 20px; 
+} 
+   
+.links-container ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+   
+.links-container li { 
+    margin-bottom: 10px; 
+} 
+   
+.links-container a { 
+    font-size: 12px; 
+    text-decoration: none; 
+    color: #FFBE5D; 
+    font-weight: lighter; 
+} 
+   
+a:hover { 
+    color: white; 
+} 
+   
+.links-container li::after { 
+    content: ""; 
+    display: block; 
+    width: 100%; 
+    height: 2px; 
+    background-color: #442013; 
+    margin: 3px 0px; 
+} 
+   
+li:last-child::after { 
+    display: none; 
+} 
+ 
+.otherPages_footer { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    padding: auto 70px; 
+} 
+   
+.otherPages_footer ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+   
+.otherPages_footer li { 
+    display: block; 
+    margin-top: 30px; 
+} 
+   
+.otherPages_footer a { 
+    text-decoration: none; 
+    font-size: 40px; 
+    color: white; 
+    font-weight: bold; 
+} 
+   
+.otherPages_footer a:hover { 
+    color: #FFBE5D; 
+} 
+ 
+.social_media { 
+    position: relative; 
+    bottom: 100px; 
+    padding: 0; 
+    display: flex;
+    
+} 
+ 
+.social_media .icon { 
+    padding: 10px; 
+} 
+ 
+.icon img { 
+    transition-duration: 0.3s; /* Smooth transition */ 
+    cursor: pointer;
+} 
+ 
+.icon:hover img { 
+    transform: scale(1.2);  
+    filter: brightness(0) invert(1); 
+    transition-duration: 0.5s;  
+} 
+ 
+.icon:hover::after { 
+    position: absolute; 
+} 
+ 
+ 
+ 
+/*! End footer section */
