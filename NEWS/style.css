@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+.logo{background-color:  #58342c;}
+
+.img1{margin-left: 90px;}
+  
+.navbar {
+    background-color: #c0744c;
+    list-style: none;
+  }
+  
+.navbar ul {
+    margin: 0;
+    padding: 2px;
+    list-style: none;
+  }
+  
+.navbar ul li {
+    display: inline-block;
+    margin-left: 90px;
+    list-style: none;
+  }
+  
+.navbar ul li a {
+    display: block;
+    color: white;
+    padding: 5px 0px;
+    margin-left: 50%;
+    text-decoration: none;
+}
+
+.text{margin-left: 110px;}
+
+.tex{margin-top: -15px;}
+
+.IMG1{margin-left: 110px;
+      margin-top: 20px;
+      display: flex;}
+
+.IMG2{margin-left:900px; 
+      margin-top: -432px;
+      display:flex;}
+
+.IMG3{height: 203px;
+      margin-left:900px; 
+      margin-top: 25px;
+      display:flex;}
+
+.IMG4{height:190px;
+      margin-left:110px; 
+      margin-top: 20px;
+      display:flex;}
+
+.IMG4-1{height: 190px;
+        margin-left:450px; 
+        margin-top: -190px;
+        display:flex;}
+ 
+.IMG4-2{height: 190px;
+      margin-left:790px; 
+      margin-top: -190px;
+      display:flex;}
+
+.IMG4-3{height: 190px;
+      margin-left:1130px; 
+      margin-top: -190px;
+      display:flex;}
+
+.IMG5{width: 311px;
+  margin-left: 110px;
+      margin-top: 30px;
+    display: flex}
+
+.IMG5-1{width: 311px; 
+        margin-left:450PX; 
+        margin-top: -390PX;
+      display: flex;}
+
+.IMG4-4{width: 650px;
+        height: 392px;
+  margin-left: 790px;
+        margin-top: -390px;
+      display: flex;}
