@@ -1,0 +1,248 @@
+.container {  display: grid;
+  grid-template-columns: 0.3fr 0.5fr 3.1fr 0.3fr;
+  grid-template-rows: 0.3fr 0.2fr 0.3fr 4fr 0.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header"
+    "header1 header1 header1 header1"
+    ". body1 body1 ."
+    ". season profiles ."
+    "footer footer footer footer";
+}
+
+.body1 { grid-area: body1; }
+.profiles {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1.1fr 1.1fr 1.1fr 1.1fr 1.1fr 1.1fr 1.1fr 1fr; /* Adjust to make rows responsive */
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: 
+    "typingarea"
+    "exam1"
+    "exam2"
+    "exam3"
+    "exam4"
+    "exam5"
+    "exam6"
+    "exam7"
+    "exam8";
+  grid-area: profiles;
+}
+
+
+
+.typingarea { grid-area: typingarea; }
+
+.exam1 { grid-area: exam1; }
+
+.exam2 { grid-area: exam2; }
+
+.exam3 { grid-area: exam3; }
+
+.exam4 { grid-area: exam4; }
+
+.exam5 { grid-area: exam5; }
+
+.exam6 { grid-area: exam6; }
+
+.exam7 { grid-area: exam7; }
+
+.exam8 { grid-area: exam8; }
+
+.season {  display: grid;
+  grid-template-columns: 1.8fr 0.2fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "season1 line";
+  grid-area: season;
+}
+
+.season1 { grid-area: season1; }
+
+.line { grid-area: line; }
+
+.footer { grid-area: footer; }
+
+.header { grid-area: header; }
+
+.header1 { grid-area: header1; }
+
+
+body{
+  margin: 0 auto;
+}
+
+
+  input[type="checkbox"]:checked {
+    accent-color: #58342c;
+    /* Replace with your desired color code */
+}
+
+.hrr {
+  background-color: #58342c;
+  width: 90px;
+  height: 2px;
+  margin-right: 150%; /* Adjust as needed */
+}
+
+.line {
+  position: relative;
+}
+
+.vl {
+  border-left: 3px solid #58342c;
+  height: 100%;
+  position: absolute;
+  left: -80%; /* Adjust the left position as needed */
+  transform: translateX(-50%);
+}
+
+
+
+
+
+p{
+  font-size: 20px;
+}
+
+
+.container1 {
+  width: 1000px; /* Define the width of your container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.box {
+ 
+  height: 150px;
+  position: relative;
+}
+
+.amphi {
+
+  height: 150px;
+  width: 30%;
+  position: absolute;
+  background-color: red;
+}
+
+.module {
+
+  height: 30px;
+  width: 180px;
+  position: absolute;
+  background-color: yellow;
+  left: 190px;
+  top: 5px;
+}
+
+.module h2 {
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  bottom: -8px;
+  font-family: Neue Montreal;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  color: #553429;
+}
+
+.date {
+  position: absolute;
+  width: 220px;
+  height: 150px;
+  left: 300px;
+  top: 0px;
+  background-color: #553429;
+  z-index: -1;
+  
+  
+}
+
+.exampalc{
+  
+  position: absolute;
+  width:260px ;
+  height: 150px;
+  left: 520px;
+  background-color: #553429;
+  
+}
+
+.observers{
+
+  position: absolute;
+  width:217px ;
+  height: 150px;
+  left: 780px;
+  background-color: #553429;
+}
+
+#hr1 {
+  border-color: #BE754C;    
+  border-width: 1px; 
+  border-style: solid; 
+  width: 200px;
+  margin-left: 0px;;
+}
+#hr2{
+  border-color: #BE754C;    
+  border-width: 1px; 
+  border-style: solid; 
+  width: 170px;
+  margin-left: 0px;;
+}
+
+
+
+#h22{
+  font-family: Neue Montreal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: white;    
+}
+#list1{
+  color: white;
+  font-family: Neue Montreal;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  margin-left: -25px;
+  
+}
+#list2{
+  color: white;
+  font-family: Neue Montreal;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  margin-left: -25px;
+  
+
+}
+
+.examdate{
+
+  color: white;
+  font-family: Neue Montreal;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 15px;
+}
+#amphiid{
+  width: 300px;
+  height: 150px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
