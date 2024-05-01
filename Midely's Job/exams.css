@@ -78,12 +78,12 @@ body{
 
 
   input[type="checkbox"]:checked {
-    accent-color: #58342c;
+    accent-color: rgb(88, 52, 44);
     /* Replace with your desired color code */
 }
 
 .hrr {
-  background-color: #58342c;
+  background-color: rgb(88, 52, 44);
   width: 90px;
   height: 2px;
   margin-right: 150%; /* Adjust as needed */
@@ -94,7 +94,7 @@ body{
 }
 
 .vl {
-  border-left: 3px solid #58342c;
+  border-left: 3px solid rgb(88, 52, 44);
   height: 100%;
   position: absolute;
   left: -80%; /* Adjust the left position as needed */
@@ -126,7 +126,7 @@ p{
   height: 150px;
   width: 30%;
   position: absolute;
-  background-color: red;
+
 }
 
 .module {
@@ -134,7 +134,7 @@ p{
   height: 30px;
   width: 180px;
   position: absolute;
-  background-color: yellow;
+  background-color:rgb(255, 190, 93);
   left: 190px;
   top: 5px;
 }
@@ -148,7 +148,7 @@ p{
   font-weight: 700;
   line-height: 19.2px;
   text-align: left;
-  color: #553429;
+  color: rgb(85, 52, 41);
 }
 
 .date {
@@ -157,7 +157,7 @@ p{
   height: 150px;
   left: 300px;
   top: 0px;
-  background-color: #553429;
+  background-color: rgb(85, 52, 41);
   z-index: -1;
   
   
@@ -169,7 +169,7 @@ p{
   width:260px ;
   height: 150px;
   left: 520px;
-  background-color: #553429;
+  background-color: rgb(85, 52, 41);
   
 }
 
@@ -179,18 +179,18 @@ p{
   width:217px ;
   height: 150px;
   left: 780px;
-  background-color: #553429;
+  background-color: rgb(85, 52, 41);
 }
 
 #hr1 {
-  border-color: #BE754C;    
+  border-color: rgb(190, 117, 76);    
   border-width: 1px; 
   border-style: solid; 
   width: 200px;
   margin-left: 0px;;
 }
 #hr2{
-  border-color: #BE754C;    
+  border-color: rgb(190, 117, 76);    
   border-width: 1px; 
   border-style: solid; 
   width: 170px;
@@ -218,7 +218,7 @@ p{
   
 }
 #list2{
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Neue Montreal;
   font-size: 13px;
   font-weight: 500;
@@ -231,7 +231,7 @@ p{
 
 .examdate{
 
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Neue Montreal;
   font-size: 11px;
   font-weight: 500;

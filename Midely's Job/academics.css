@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 0.3fr 0.3fr 3.1fr 0.3fr;
+    grid-template-columns: 0.3fr 0.6fr 3.1fr 0.3fr;
     grid-template-rows: 0.2fr 0.2fr 0.8fr 1.5fr 0.9fr 0.1fr;
     gap: 0px 0px;
     grid-auto-flow: column;
@@ -25,6 +25,10 @@
 
 .thirdspace {
     grid-area: thirdspace;
+
+}
+.thirdspace a{
+    text-decoration: none;
 }
 
 .secondspace {
@@ -42,6 +46,57 @@ body {
 #midely {
     float: right;
     margin-left: 10px;
+}
+#typing1{
+    font-family: Neue Montreal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);    
+}
+#typing2{
+
+    font-family: Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.checkbox-label {
+    display: inline-block;
+    line-height: 20px; /* Adjust this value to vertically align the text */
+    margin-bottom: 7px; /* Adjust this value to control the space */
+    vertical-align: middle; /* Align the label vertically with the checkbox */
+    position: relative;
+    top: 4px;
+    left: 10px;
+    color: rgba(85, 52, 41, 1);
+    font-family: Neue Montreal;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+input[type="checkbox"] {
+    vertical-align: middle; /* Align the checkbox vertically with the label */
+}  
+
+.formationlmd{
+    font-family: Neue Montreal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+}
+#study1{
+    font-family: Neue Montreal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    
 }
 
 .boxdisplay {
@@ -138,14 +193,13 @@ body {
     background-color: #e8e4e4;
 }
 
-input[type="checkbox"]:checked {
+input[type="checkbox"] {
     accent-color: #58342c;
-    /* Replace with your desired color code */
 }
 
 .hrr {
     background-color: #58342c;
-    width: 90px;
+    width: 120px;
     height: 2px;
     margin-right: 150%; /* Adjust as needed */
   }
@@ -156,11 +210,33 @@ input[type="checkbox"]:checked {
 }
 
 #singincolor {
-    color: black;
+    color:rgba(0, 0, 0, 1);
+    font-family: Neue Montreal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    
 }
-
+#Requiremenets{
+    color:rgba(0, 0, 0, 1);
+    font-family: Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    
+}
+#writing{
+    font-family: Neue Montreal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    
+}
 #here {
-    color: black;
+    color:rgba(0, 0, 0, 1);
 }
 .line-container {
     position: relative;
@@ -169,8 +245,9 @@ input[type="checkbox"]:checked {
 
 .vl {
     border-left: 3px solid #58342c;
-    height: 1350px;
+    height: 1450px;
     position: absolute;
-    left: 96%;
+    left: 80%;
     transform: translateX(-50%);
+
 }
