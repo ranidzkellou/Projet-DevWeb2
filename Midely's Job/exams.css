@@ -75,6 +75,31 @@
 body{
   margin: 0 auto;
 }
+@font-face { 
+  font-family: 'Rachel';  
+  src: url('Fonts/Rachel\ Roman.ttf') format('truetype'); 
+} 
+
+@font-face { 
+  font-family: 'NeueMontreal'; 
+  font-weight: lighter; 
+  font-style: normal; 
+  src: url('Fonts/NeueMontreal-Light.otf') format('opentype'); 
+} 
+
+@font-face { 
+  font-family: 'NeueMontreal'; 
+  font-weight: normal; 
+  font-style: normal; 
+  src: url('Fonts/NeueMontreal-Regular.otf') format('opentype'); 
+} 
+
+@font-face { 
+  font-family: 'NeueMontreal'; 
+  font-weight: bold; 
+  font-style: bold; 
+  src: url('Fonts/NeueMontreal-Bold.otf') format('opentype'); 
+}
 
 
   input[type="checkbox"]:checked {
