@@ -135,20 +135,20 @@ input[type="checkbox"] {
     height: 150px;
     width: 250px;
     font-size: 8em;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 #box1 {
-    background-color: #58342c;
+    background-color: rgba(85, 52, 41, 1);
 }
 
 #box2 {
-    background-color: #58342c;
+    background-color: rgba(85, 52, 41, 1);
 }
 
 #box3 {
-    background-color: #58342c;
+    background-color: rgba(85, 52, 41, 1);
 }
 
 .boxdisplay2 {
@@ -161,19 +161,17 @@ input[type="checkbox"] {
 .smallbox {
     height: 30px;
     width: 250px;
-    color: #ffbe5d;
+    color: rgba(255, 190, 93, 1);
 }
 
-#box3 {
-    background-color: #58342c;
-}
+
 
 #box4 {
-    background-color: #58342c;
+    background-color: rgba(85, 52, 41, 1);
 }
 
 #box5 {
-    background-color: #58342c;
+    background-color: rgba(85, 52, 41, 1);
 }
 
 .boxdisplay3 {
@@ -182,16 +180,16 @@ input[type="checkbox"] {
     text-align: center;
     font-size: 20px;
     flex-direction: row-reverse;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #boxisil {
-    background-color: #c0744c;
+    background-color: rgba(190, 117, 76, 1);
     width: 125px;
 }
 
 #boxSI {
-    background-color: #58342c;
+    background-color: rgba(85, 52, 41, 1);
     width: 125px;
 }
 
@@ -208,23 +206,23 @@ input[type="checkbox"] {
 }
 
 #box10 {
-    background-color: #e8e4e4;
+    background-color: rgba(224, 224, 224, 1);
 }
 
 #box30 {
-    background-color: #e8e4e4;
+    background-color: rgba(224, 224, 224, 1);
 }
 
 #box40 {
-    background-color: #e8e4e4;
+    background-color: rgba(224, 224, 224, 1);
 }
 
 input[type="checkbox"] {
-    accent-color: #58342c;
+    accent-color: rgba(85, 52, 41, 1);
 }
 
 .hrr {
-    background-color: #58342c;
+    background-color: rgba(85, 52, 41, 1);
     width: 120px;
     height: 2px;
     margin-right: 150%; /* Adjust as needed */
@@ -270,7 +268,7 @@ input[type="checkbox"] {
 }
 
 .vl {
-    border-left: 3px solid #58342c;
+    border-left: 3px solid rgba(85, 52, 41, 1);
     height: 1450px;
     position: absolute;
     left: 80%;
