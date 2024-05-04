@@ -9,6 +9,7 @@
       ". first-space ."
       ". secondspace ."
       "footer footer footer";
+      
   }
   
   .Header { grid-area: Header; }
@@ -22,13 +23,15 @@
   .secondspace {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    gap: 0px 20px;
+    gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
       "fmsq fmsq fmsq"
       "fstq scnq thdq";
     grid-area: secondspace;
+    
   }
+  
   
   .fmsq {
     grid-area: fmsq;
@@ -197,9 +200,13 @@ button:hover {
     width: 240px;
     height: 220px;
     position: relative;
+
+    
 }
 .thdq{
     width: 240px;
     height: 220px;
     position: relative;
+    margin-left: 20px;
+
 }
